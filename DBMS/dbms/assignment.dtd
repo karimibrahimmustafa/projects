@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT assignment (row)+>
+
+<!ATTLIST assignment xmlns CDATA #FIXED ''Data NMTOKEN #REQUIRED>
+<!ELEMENT row (degree,teamName,deadLine)>
+
+<!ATTLIST row xmlns CDATA #FIXED ''>
+<!ELEMENT degree (#PCDATA)>
+
+<!ATTLIST degree xmlns CDATA #FIXED '' Type NMTOKEN #REQUIRED>
+<!ELEMENT teamName (#PCDATA)>
+
+<!ATTLIST teamName xmlns CDATA #FIXED '' Type NMTOKEN #REQUIRED>
+<!ELEMENT deadLine (#PCDATA)>
+
+<!ATTLIST deadLine xmlns CDATA #FIXED '' Type NMTOKEN #REQUIRED>

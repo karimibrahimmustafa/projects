@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT student2 (row)+>
+
+<!ATTLIST student2 xmlns CDATA #FIXED ''Data NMTOKEN #REQUIRED>
+<!ELEMENT row (english,engineering,physics,chemistry)>
+
+<!ATTLIST row xmlns CDATA #FIXED ''>
+<!ELEMENT english (#PCDATA)>
+
+<!ATTLIST english xmlns CDATA #FIXED 'varchar' Type NMTOKEN #REQUIRED>
+<!ELEMENT engineering (#PCDATA)>
+
+<!ATTLIST engineering xmlns CDATA #FIXED 'varchar' Type NMTOKEN #REQUIRED>
+<!ELEMENT physics (#PCDATA)>
+
+<!ATTLIST physics xmlns CDATA #FIXED 'varchar' Type NMTOKEN #REQUIRED>
+<!ELEMENT chemistry (#PCDATA)>
+
+<!ATTLIST chemistry xmlns CDATA #FIXED 'intr' Type NMTOKEN #REQUIRED>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE table_name3 PUBLIC "" "table_name3.dtd">
+<table_name3 Data="True">
+<row>
+<column_name1 Type="varchar">'value1'</column_name1>
+<column_name2 Type="int">3</column_name2>
+<column_name3 Type="varchar">'value3'</column_name3>
+</row>
+</table_name3>

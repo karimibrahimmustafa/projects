@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Arc?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="618.0" prefWidth="490.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication4.FXMLDocumentController">
+    <children>
+      <Pane fx:id="contain" prefHeight="500.0" prefWidth="500.0" style="-fx-background-color: black;">
+         <children>
+            <Rectangle fx:id="border1" arcHeight="5.0" arcWidth="5.0" height="500.0" stroke="#ff0037" strokeType="INSIDE" strokeWidth="3.0" width="500.0" />
+            <Circle fx:id="evil5" fill="#c621ff" layoutX="26.0" layoutY="467.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle id="evil4" fx:id="evil4" fill="#31ff21" layoutX="26.0" layoutY="467.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle id="evil2" fx:id="evil2" fill="#ffd900" layoutX="26.0" layoutY="466.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle id="evil" fx:id="evil" fill="#86002d" layoutX="26.0" layoutY="467.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+            <Rectangle fx:id="block" arcHeight="5.0" arcWidth="5.0" fill="#ffa71f" height="108.0" layoutX="93.0" layoutY="66.0" stroke="#fa0041" strokeType="INSIDE" strokeWidth="3.0" width="98.0" />
+            <Rectangle fx:id="block2" arcHeight="5.0" arcWidth="5.0" fill="#ffa71f" height="108.0" layoutX="324.0" layoutY="69.0" stroke="#fa0041" strokeType="INSIDE" strokeWidth="3.0" width="98.0" />
+            <Rectangle fx:id="block4" arcHeight="5.0" arcWidth="5.0" fill="#ffa71f" height="182.0" layoutX="243.0" layoutY="172.0" stroke="#da0707" strokeType="INSIDE" strokeWidth="3.0" width="23.0" />
+            <Text fx:id="text1" fill="WHITE" layoutX="31.0" layoutY="268.0" strokeType="OUTSIDE" strokeWidth="0.0" text="START GAME" textAlignment="JUSTIFY" wrappingWidth="437.9999939467525">
+               <font>
+                  <Font size="73.0" />
+               </font>
+            </Text>
+            <Rectangle fx:id="block3" arcHeight="5.0" arcWidth="5.0" fill="#ffa71f" height="17.0" layoutX="91.0" layoutY="411.0" stroke="#e40c28" strokeType="INSIDE" strokeWidth="3.0" width="318.0" />
+         </children></Pane>
+      <Pane fx:id="start" prefHeight="500.0" prefWidth="500.0">
+         <children>
+            <ImageView fx:id="face1" fitHeight="50.0" fitWidth="50.0" layoutX="3.0" layoutY="440.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@800px_COLOURBOX20022257.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="face2" fitHeight="50.0" fitWidth="50.0" layoutX="3.0" layoutY="440.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@800px_COLOURBOX200232257.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="face3" fitHeight="50.0" fitWidth="50.0" layoutX="3.0" layoutY="440.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@800px_COLOURBOX200222kk57.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="face4" fitHeight="50.0" fitWidth="50.0" layoutX="3.0" layoutY="440.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@800px_COLOURnnBOX20022257.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Rectangle fx:id="border2" arcHeight="5.0" arcWidth="5.0" height="128.0" layoutY="498.0" stroke="#ff0037" strokeType="INSIDE" strokeWidth="3.0" width="500.0" />
+      <Circle fx:id="food" fill="#ff1f4a" layoutX="23.0" layoutY="27.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cir" layoutX="26.0" layoutY="26.0" radius="24.0" rotate="6.3" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+      <Circle fx:id="eat" fill="DODGERBLUE" layoutX="26.0" layoutY="26.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="up" fill="DODGERBLUE" layoutX="26.0" layoutY="26.0" length="270.0" radiusX="24.0" radiusY="24.0" startAngle="135.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" visible="false" />
+      <Circle fx:id="upeye" layoutX="14.0" layoutY="30.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="left" fill="DODGERBLUE" layoutX="26.0" layoutY="26.0" length="270.0" radiusX="24.0" radiusY="24.0" startAngle="-135.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" visible="false" />
+      <Circle fx:id="lefteye" layoutX="26.0" layoutY="14.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Arc fx:id="down" fill="DODGERBLUE" layoutX="26.0" layoutY="26.0" length="270.0" radiusX="24.0" radiusY="24.0" startAngle="-45.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" visible="false" />
+      <Circle fx:id="downeye" layoutX="36.0" layoutY="24.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Arc fx:id="right" fill="DODGERBLUE" layoutX="26.0" layoutY="26.0" length="270.0" radiusX="24.0" radiusY="24.0" startAngle="45.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+      <Circle fx:id="righteye" layoutX="25.0" layoutY="13.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+      <Arc fx:id="life1" fill="DODGERBLUE" layoutX="33.0" layoutY="531.0" length="270.0" radiusX="24.0" radiusY="24.0" startAngle="45.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+      <Arc fx:id="life2" fill="DODGERBLUE" layoutX="87.0" layoutY="530.0" length="270.0" radiusX="24.0" radiusY="24.0" startAngle="45.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+      <Arc fx:id="life3" fill="DODGERBLUE" layoutX="144.0" layoutY="530.0" length="270.0" radiusX="24.0" radiusY="24.0" startAngle="45.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+      <Circle fx:id="eatlife1" fill="DODGERBLUE" layoutX="144.0" layoutY="530.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="eatlife2" fill="DODGERBLUE" layoutX="87.0" layoutY="530.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="eatlife3" fill="DODGERBLUE" layoutX="32.0" layoutY="531.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Text fill="WHITE" layoutX="287.0" layoutY="537.0" strokeType="OUTSIDE" strokeWidth="0.0" text="score " wrappingWidth="167.46875">
+         <font>
+            <Font name="Aharoni Bold" size="64.0" />
+         </font>
+      </Text>
+      <Text fx:id="score" fill="WHITE" layoutX="339.0" layoutY="609.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="31.970563888549805">
+         <font>
+            <Font size="64.0" />
+         </font>
+      </Text>
+    </children>
+</AnchorPane>

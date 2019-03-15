@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE koko1 PUBLIC "" "koko1.dtd">
+<koko1 Data="True">
+<row>
+<age Type="int">30</age>
+<name Type="varchar">dfkjfk</name>
+</row>
+<row>
+<age Type="int">40</age>
+<name Type="varchar">sdjkfjkj</name>
+</row>
+</koko1>

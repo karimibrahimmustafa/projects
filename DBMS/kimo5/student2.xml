@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE student2 PUBLIC "" "student2.dtd">
+<student2 Data="True">
+<row>
+<english Type="varchar">2</english>
+<engineering Type="varchar">10</engineering>
+<physics Type="varchar">12</physics>
+<chemistry Type="intr">20</chemistry>
+</row>
+<row>
+<english Type="varchar">15</english>
+<engineering Type="varchar">21</engineering>
+<physics Type="varchar">55</physics>
+<chemistry Type="intr">6</chemistry>
+</row>
+<row>
+<english Type="varchar">1000</english>
+<engineering Type="varchar">151515</engineering>
+<physics Type="varchar">123</physics>
+<chemistry Type="intr">154</chemistry>
+</row>
+<row>
+<english Type="varchar">kimo</english>
+<engineering Type="varchar">hi</engineering>
+<physics Type="varchar">huhu</physics>
+<chemistry Type="intr">6666</chemistry>
+</row>
+<row>
+<english Type="varchar">10065650</english>
+<engineering Type="varchar">15165655515</engineering>
+<physics Type="varchar">16523</physics>
+<chemistry Type="intr">1545544</chemistry>
+</row>
+</student2>

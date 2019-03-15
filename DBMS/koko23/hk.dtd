@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT hk (row)+>
+
+<!ATTLIST hk xmlns CDATA #FIXED ''Data NMTOKEN #REQUIRED>
+<!ELEMENT row (sdjhiv,idfhsizhxf)>
+
+<!ATTLIST row xmlns CDATA #FIXED ''>
+<!ELEMENT sdjhiv (#PCDATA)>
+
+<!ATTLIST sdjhiv xmlns CDATA #FIXED '' Type NMTOKEN #REQUIRED>
+<!ELEMENT idfhsizhxf (#PCDATA)>
+
+<!ATTLIST idfhsizhxf xmlns CDATA #FIXED '' Type NMTOKEN #REQUIRED>

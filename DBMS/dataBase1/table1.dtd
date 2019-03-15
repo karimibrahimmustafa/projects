@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT table1 (row)+>
+
+<!ATTLIST table1 xmlns CDATA #FIXED ''Data NMTOKEN #REQUIRED>
+<!ELEMENT row (column1,column2)>
+
+<!ATTLIST row xmlns CDATA #FIXED ''>
+<!ELEMENT column1 (#PCDATA)>
+
+<!ATTLIST column1 xmlns CDATA #FIXED '' Type NMTOKEN #REQUIRED>
+<!ELEMENT column2 (#PCDATA)>
+
+<!ATTLIST column2 xmlns CDATA #FIXED '' Type NMTOKEN #REQUIRED>

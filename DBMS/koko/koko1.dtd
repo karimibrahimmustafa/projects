@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT koko1 (row)+>
+
+<!ATTLIST koko1 xmlns CDATA #FIXED ''Data NMTOKEN #REQUIRED>
+<!ELEMENT row (age,name)>
+
+<!ATTLIST row xmlns CDATA #FIXED ''>
+<!ELEMENT age (#PCDATA)>
+
+<!ATTLIST age xmlns CDATA #FIXED '' Type NMTOKEN #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+
+<!ATTLIST name xmlns CDATA #FIXED '' Type NMTOKEN #REQUIRED>

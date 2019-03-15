@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE table1 PUBLIC "" "table1.dtd">
+<table1 Data="True">
+<row>
+<column1 Type="int">20</column1>
+<column2 Type="varchar">mahmoud</column2>
+</row>
+<row>
+<column1 Type="int">20</column1>
+<column2 Type="varchar">mahmoud</column2>
+</row>
+<row>
+<column1 Type="int">30</column1>
+<column2 Type="varchar">mohamed</column2>
+</row>
+<row>
+<column1 Type="int">30</column1>
+<column2 Type="varchar">mohamed</column2>
+</row>
+<row>
+<column1 Type="int">400</column1>
+<column2 Type="varchar">koko</column2>
+</row>
+<row>
+<column1 Type="int">400</column1>
+<column2 Type="varchar">koko</column2>
+</row>
+<row>
+<column1 Type="int">240</column1>
+<column2 Type="varchar">elsawy</column2>
+</row>
+<row>
+<column1 Type="int">240</column1>
+<column2 Type="varchar">elsawy</column2>
+</row>
+</table1>

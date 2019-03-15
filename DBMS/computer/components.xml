@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE components PUBLIC "" "components.dtd">
+<components Data="True">
+<row>
+<number Type="int">23</number>
+<types Type="varchar">apple</types>
+</row>
+<row>
+<number Type="int">23</number>
+<types Type="varchar">apple</types>
+</row>
+<row>
+<number Type="int">43</number>
+<types Type="varchar">hp</types>
+</row>
+<row>
+<number Type="int">43</number>
+<types Type="varchar">hp</types>
+</row>
+<row>
+<number Type="int">353</number>
+<types Type="varchar">intel</types>
+</row>
+<row>
+<number Type="int">353</number>
+<types Type="varchar">intel</types>
+</row>
+</components>
