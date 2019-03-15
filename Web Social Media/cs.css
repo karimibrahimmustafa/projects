@@ -1,0 +1,13 @@
+body {
+background-color: yellow;
+    height: 100%;
+    font-family:inherit;
+    font-style: italic;
+   font-size:50 px; 
+	 font-family:Arial;
+}
+.text {
+    background-color: grey;
+    color: black;
+    
+}
